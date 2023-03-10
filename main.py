@@ -18,4 +18,4 @@ def predict_sales():
     return f'sales in $ ={str(result[0])}'
 
 if __name__=='__main__':
-    app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0',port=5555)
